@@ -38,10 +38,10 @@ async function run() {
         );
 
         // Mostrar resultados
-        console.log("Query Results:");
-        result.rows.forEach(row => {
-            console.log(row);
-        });
+        // console.log("Query Results:");
+        // result.rows.forEach(row => {
+        //     console.log(row);
+        // });
 
         return result.rows;
 
