@@ -72,7 +72,6 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-
 async function run() {
     let connection;
 
